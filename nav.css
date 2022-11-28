@@ -1,0 +1,35 @@
+body {
+    background-color: aqua;
+}
+
+.start {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    background-color: chocolate;
+    flex-wrap: wrap;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    background-color: brown;
+}
+
+ul {
+    color: aliceblue;
+    list-style-type: none;
+    display: flex;
+    align-content: center;
+    margin: 5px;
+    margin-left: 0px;
+}
+
+li {
+    margin-right: 12px;
+    font-size: large;
+}
+
+h1 {
+    margin: 5px;
+}

@@ -1,0 +1,341 @@
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-white: #fff;
+    --text-primary: #003366;
+    --text-secondary: #008080;
+    --text-tetiary: #666666;
+    --decor: #ffd700;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.title {
+    color: var(--decor);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--text-secondary);
+    align-items: center;
+    font-size: x-large;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.contact {
+    display: flex;
+    color: azure;
+}
+
+.contact li {
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+.contact li a {
+    text-decoration: none;
+    color: var(--text-white);
+}
+
+.attention {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-white);
+    font-size: xx-large;
+    opacity: 1;
+}
+
+.attention p {
+    font-style: italic;
+}
+
+.attention a {
+    text-decoration: none;
+    color: aqua;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    box-shadow: 2px px 8px rgb(46, 46, 46);
+}
+
+.imgrow {
+    max-width: 50%;
+}
+
+.imgrow img {
+    background: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#textrow {
+    background-color: #e5e9e9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: auto;
+    width: 50%;
+}
+
+.row2 {
+    margin-top: 5px;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 100%;
+    box-shadow: 2px 1px 8px rgb(46, 46, 46);
+    flex-wrap: wrap;
+}
+
+#textrow2 {
+    background-image: radial-gradient(rgb(200, 231, 146), rgb(241, 208, 100));
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+    width: 50%;
+    flex-wrap: wrap-reverse;
+    word-wrap: normal;
+}
+
+footer {
+    margin-top: auto;
+    bottom: 10%;
+    position: relative;
+    background-image: linear-gradient(white, rgb(68, 68, 138));
+    width: 100%;
+}
+
+#textrow button {
+    margin-top: 60px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 2px 2px 6px #666666;
+}
+
+#textrow2 button {
+    margin-top: 60px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 2px 2px 6px #666666;
+}
+
+.contact #home:hover {
+    background-color: #66666697;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.contact #about:hover {
+    background-color: #66666697;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.contact #contact:hover {
+    background-color: #66666697;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.know-more {
+    max-width: 100%;
+    display: flex;
+}
+
+.know-more img {
+    width: 50%;
+}
+
+.know-more div {
+    width: 50%;
+    padding: 10px;
+    background-image: linear-gradient(45deg, rgb(251, 251, 61), rgb(57, 36, 36));
+    color: #e5e9e9;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.submain {
+    background-image: url(/html/Project-3/photo-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.submain div {
+    background-image: linear-gradient(50deg, rgba(255, 0, 0, 0.678), rgba(128, 128, 128, 0.604));
+    width: 50%;
+    height: 25%;
+    margin: 5px;
+    border-radius: 8px;
+    z-index: 2;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    word-wrap: break-word;
+}
+
+.submain2 div p {
+    text-overflow: ellipsis;
+    position: absolute;
+}
+
+#submain0 {
+    border-radius: 0pt;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.504), rgba(128, 128, 128, 0.537));
+    z-index: 1;
+}
+
+.submain h3 {
+    font-family: "Frostbitten Wanker";
+    font-size: 50px;
+    z-index: 2;
+    text-shadow: 2px 3px 8px rgb(255, 255, 255);
+}
+
+.contact1 {
+    display: flex;
+    background-color: black;
+    background-size: cover;
+    color: aliceblue;
+    width: 100%;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.contact1 img {
+    overflow: hidden;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.18;
+}
+
+.form1 {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 2%;
+    height: auto;
+}
+
+.contact1 div {
+    z-index: 2;
+    width: 50%;
+    height: auto;
+    margin-right: 30px;
+}
+
+.form1 input {
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f7f2f2d6;
+    box-shadow: 2px 1px 9px rgba(128, 128, 128, 0.742);
+}
+
+.form1 textarea {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f7f2f2d6;
+    box-shadow: 2px 1px 9px rgba(128, 128, 128, 0.742);
+}
+
+.form1 button {
+    width: fit-content;
+    padding: 6px;
+    border-radius: 5px;
+    font-weight: bold;
+    border-color: #66666654;
+    background-color: #0a5cae;
+    color: aliceblue;
+    align-self: flex-end;
+    box-shadow: 2px 1px 3px rgb(128, 128, 128);
+}
+
+.contact1 input:hover {
+    opacity: 0.82;
+}
+
+.form1 textarea:hover {
+    opacity: 0.82;
+}

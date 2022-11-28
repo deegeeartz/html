@@ -1,0 +1,17 @@
+.flex {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    position: ;
+}
+
+.parent {
+    background-color: brown;
+    height: 500px;
+    position: relative;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+}
