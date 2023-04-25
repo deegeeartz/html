@@ -137,6 +137,7 @@ nav {
 
 footer {
     margin-top: auto;
+    height: auto;
     bottom: 10%;
     position: relative;
     background-image: linear-gradient(white, rgb(68, 68, 138));
@@ -211,11 +212,11 @@ button:hover {
 }
 
 .submain {
-    background-image: url(/html/Project-3/photo-3.jpg);
+    background-image: url(/Project-3/photo-3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 500px;
+    height: auto;
     margin-top: 8px;
     display: flex;
     flex-direction: column;
@@ -238,7 +239,7 @@ button:hover {
 }
 
 .submain2 div p {
-    text-overflow: ellipsis;
+    text-align: center;
     position: absolute;
 }
 
@@ -258,6 +259,7 @@ button:hover {
     font-size: 50px;
     z-index: 2;
     text-shadow: 2px 3px 8px rgb(255, 255, 255);
+    text-align: center;
 }
 
 .contact1 {
@@ -321,7 +323,7 @@ button:hover {
 }
 
 .form1 button {
-    width: fit-content;
+    width: auto;
     padding: 6px;
     border-radius: 5px;
     font-weight: bold;

@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    flex-wrap: wrap-reverse;
+    background-image: linear-gradient(40deg, blue, grey);
+}
+
+nav .contact {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+nav .contact li {
+    padding: 10px;
+}
+
+.row1,
+.row2 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+#textrow,
+#textrow2 {
+    width: 100%;
+    background-image: linear-gradient(45deg, yellow, black);
+    color: aliceblue;
+}
+
+.imgrow {
+    min-width: 100%;
+}
+
+.know-more {
+    display: flex;
+    flex-direction: column;
+}
+
+.know-more img {
+    width: 100%;
+}
+
+.know-more div {
+    width: 100%;
+    height: auto;
+}
